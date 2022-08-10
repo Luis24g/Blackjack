@@ -1,6 +1,7 @@
 html,body{
     margin:0px;
     background-color: #2F4F30;
+    color: whitesmoke;
     
 }
 
@@ -14,7 +15,11 @@ html,body{
 
 .carta{
     position: relative;
-    width:150px;
+    width:140px;
     left: 100px;
     margin-left: -65px;
+}
+
+#jugador-cartas, #casa-cartas{
+    height: 250px;
 }
