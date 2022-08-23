@@ -82,7 +82,9 @@ btnDeal.addEventListener('click',()=>{
     if(puntajes[0]>21){
         btnDeal.disabled = true;
         btnHold.disabled = true;
-        console.warn('Perdiste');
+        setTimeout(()=>{
+            alert('Perdiste');            
+        },50);
     }else if(puntajes[0]===21){
         btnDeal.disabled = true;
         
